@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in page</title>
+</head>
+
+<body>
+    <style>
+        img {
+            height: 100px;
+            width: 200px;
+            margin-left: 690px;
+            margin-bottom: -45px;
+        }
+
+        * {
+            background-color: white;
+        }
+
+        h1 {
+            background-color: white;
+        }
+
+        .signin {
+           
+            justify-content: center;
+            align-items: center;
+            height: 550px;
+            width: 350px;
+            margin-top: -10px;
+            text-align: center;
+            position: relative;
+            margin-left: 600px;
+            border-radius: 10px;
+            text-align: left;
+            font-size: 1.5rem;
+            padding: 30px;
+            padding-top: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: white;
+        }
+
+        #number {
+
+
+            width: 100%;
+            height: 25px;
+            background-color: white;
+        }
+
+        input {
+            margin-top: 30px;
+        }
+
+        label {
+            background-color: white;
+        }
+
+        button {
+            margin-top: 30px;
+            width: 360px;
+            height: 30px;
+            background-color: yellow;
+            font-size: 20px;
+            font-weight: 500;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        button:hover {
+            background-color: orange;
+        }
+
+        a {
+            text-decoration: none;
+            /* background-color: white; */
+        }
+
+        p {
+            background-color: white;
+            font-size: 20px;
+        }
+
+        h2 {
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px solid #000;
+            line-height: 0.1em;
+            margin: 10px 0 20px;
+            font-size: 20px;
+        }
+
+        h2 span {
+            background: #fff;
+            padding: 0 10px;
+        }
+
+        .account{
+            background-color: white;
+        }
+
+        #account{
+            color: black;
+            background-color: white;
+        }
+
+        #account:hover{
+            background-color: orange;
+        }
+    </style>
+    <a href="index.html"><img src="amazon.png" alt=""></a>
+    <div class="signin">
+        <h1>Sign in</h1>
+        <label for="number">Enter your mobile phone number</label>
+        <input type="number" id="number" name="number">
+        <button>continue</button>
+        <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+        <details style="background-color: white;">
+            <summary style="background-color: white; font-size: 20px;">Need help</summary>
+            <a href="" style="background-color: white; font-size: 20px;">forgot your password</a><br>
+            <a href="" style="background-color: white; font-size: 20px;">other issues with sign-in</a>
+        </details>
+        <hr>
+        <p style="font-weight: 600;">Buying for work?</p>
+        <a href="" style="background-color: white; font-size: 20px;">Shop on amazon business</a>
+        <h2><span>New to Amazon</span></h2>
+        <button class="account"><a href="account.html" id="account">create an account</a></button>
+
+    </div>
+</body>
+
+</html>
